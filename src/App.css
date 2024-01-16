@@ -1,0 +1,326 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* /////////////////////////Table Responsive */
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: 0.5em 0 0.75em;
+}
+
+table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 0.35em;
+}
+
+table th,
+table td {
+  padding: 0.625em;
+  text-align: center;
+}
+
+table th {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+table tbody td img {
+  height: "100px";
+  width: "100px";
+}
+@media screen and (max-width: 750px) {
+  .ImageTag {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625em;
+  }
+
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+  }
+
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+/* general styling */
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+}
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+@media (min-width: 378px) {
+  .body {
+    color: #0a58f3;
+  }
+}
+.view-data {
+  background-color: white;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  box-shadow: 20px 20px 10px grey;
+}
+.vdata {
+  background-color: rgba(167, 43, 27, 0.31);
+}
+.lbl-q {
+  padding: 3%;
+}
+.bt-q {
+  width: 9%;
+}
+.xyzzzz {
+  background-image: url("/public/Img/end3.jpg");
+}
+.b-data {
+  width: 40%;
+  margin-top: 6%;
+}
+.cartimg {
+  width: 100%;
+  height: 10%;
+  margin-top: 4%;
+  float: right;
+  cursor: pointer;
+}
+.des-data {
+  margin-top: 8%;
+  text-align: initial;
+  margin-left: 57%;
+}
+.des-q {
+  /* margin-bottom: 50%; */
+  margin-top: 3%;
+  text-align: initial;
+  margin-left: 57%;
+}
+.img-f {
+  float: left;
+  width: 33%;
+  margin-left: 12%;
+
+  margin-top: 56px;
+  box-shadow: 20px 20px 50px grey;
+}
+.login-main {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3%;
+  color: black;
+  border-radius: 5px;
+  background-color: #86b5a5;
+}
+.input-d {
+  border-radius: 5px solid black;
+}
+.display-img {
+  width: 188px;
+}
+.data-card {
+  margin-right: 75%;
+  margin-left: 5%;
+
+  width: 18rem;
+}
+.img-cart {
+  width: 47px;
+  float: right;
+  margin-top: 4%;
+  margin-right: 50px;
+}
+.img-product {
+  width: 100px;
+  height: 200px;
+}
+.img-home {
+  height: 850%;
+  margin-left: -32%;
+  margin-top: 7%;
+  width: 40%;
+  border-radius: 5px;
+}
+.hhh {
+  margin-right: 2%;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+.pdesa {
+  font-family: "Times New Roman", Times, serif;
+}
+.porder {
+  background-color: aquamarine;
+}
+.abbccc {
+  margin-top: 7%;
+  margin-left: 2%;
+}
+.childs {
+  margin-top: 5%;
+}
+.pdes {
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+}
+.img-home1 {
+  height: 820%;
+
+  margin-top: 0%;
+  width: 100%;
+  border-radius: 5px;
+}
+.main {
+  background-color: #86b5a5;
+  height: 90px;
+}
+.check-f {
+  background-color: #61dafb;
+  margin-right: 50%;
+}
+.check-s {
+  background-color: aquamarine;
+  margin-left: 50%;
+}
+.backabc {
+  width: 90%;
+}
+.abcd {
+  margin-top: 1%;
+
+  background-color: black;
+  font-size: revert;
+  margin-right: 93%;
+  margin-left: 97%;
+  border-radius: 50%;
+  color: white;
+}
+.text {
+  font-family: "Times New Roman", Times, serif;
+}
+.table-dis {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.tedit {
+  margin-right: -67%;
+  font-size: revert;
+  font-family: initial;
+}
+.about-data {
+  font-family: "Times New Roman", Times, serif;
+  border: 2px solid #282c34;
+  margin-top: 3%;
+  font-size: 200%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.about-back {
+  background-color: aliceblue;
+  color: #282c34;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.links-nav {
+  text-decoration: none;
+  color: white;
+  padding: 2%;
+}
+.titles {
+  float: right;
+}
+.homediv {
+  height: 50px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.dis-amount {
+  float: right;
+  margin-top: 2%;
+  margin-right: -5%;
+  border-radius: 50%;
+  border: 1px solid red;
+  background-color: red;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
